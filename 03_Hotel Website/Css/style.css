@@ -136,6 +136,7 @@ p{
     float: left;
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
+    background-size: cover;
     min-height: 100%;
 }
 
