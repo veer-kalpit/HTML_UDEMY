@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vh & Vw Units</title>
     <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+      }
+      header {
+        background: #333
+          url("../02_CSS/Image/Chrome-logo-design-on-transparent-background-PNG.png")
+          no-repeat center center/cover;
+        color: green;
+        height: 100vh;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 20rem;
+      }
+      header h1 {
+        margin: 3rem;
+      }
+      header p {
+        margin: 1rem 0;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+      }
+      section {
+        padding: 2rem;
+      }
+      @media (max-width: 1080px) {
+        header {
+          padding-top: 5rem;
+          background: url("../02_CSS/Image/star.jpg") no-repeat center
+            center/cover;
+          color: chocolate;
         }
-        body{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 25px;
-        }
-        header{
-            background: #333 url('../02_CSS/Image/Chrome-logo-design-on-transparent-background-PNG.png') no-repeat center center/cover;
-            color: green;
-            height: 100vh;
-            text-align: center;
-            padding: 2rem;
-            padding-top: 20rem;
-        }
-        header h1{
-            margin: 3rem;
-        }
-        header p{
-            margin: 1rem 0;
-        }
-        .btn{
-            display: inline-block;
-            text-decoration: none;
-            background: #f4f4f4;
-            color:#333;
-            padding: 0.75rem 2rem;
-
-        }
-        section {
-            padding: 2rem;
-        }
-        @media(max-width:1080px){
-            header{
-                padding-top: 5rem;
-                background:url('../02_CSS/Image/star.jpg') no-repeat center center/cover;
-                color: chocolate;
-            }
-            
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Welcome to Our Website</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius laudantium deserunt necessitatibus magnam tempora ex odit iste nulla mollitia dignissimos a nostrum fugit, reprehenderit aperiam ducimus odio facere blanditiis deleniti, saepe libero et ullam sint? Provident, inventore error? Autem?</p>
-        <a href="#" class="btn">Find out More</a>
+      <h1>Welcome to Our Website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius
+        laudantium deserunt necessitatibus magnam tempora ex odit iste nulla
+        mollitia dignissimos a nostrum fugit, reprehenderit aperiam ducimus odio
+        facere blanditiis deleniti, saepe libero et ullam sint? Provident,
+        inventore error? Autem?
+      </p>
+      <a href="#" class="btn">Find out More</a>
     </header>
     <section>
-        <h3>About our Company </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus veritatis possimus non aliquam! Hic delectus libero molestias perspiciatis odit possimus! Autem explicabo vel adipisci delectus totam, voluptatibus dolorum nemo.</p>
+      <h3>About our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus
+        veritatis possimus non aliquam! Hic delectus libero molestias
+        perspiciatis odit possimus! Autem explicabo vel adipisci delectus totam,
+        voluptatibus dolorum nemo.
+      </p>
     </section>
-</body>
+  </body>
 </html>
